@@ -16,6 +16,7 @@ p {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   /* line-height: 30px; */
+  color: var(--secondary);
 }
 body {
   max-width: 100%;
@@ -82,10 +83,26 @@ a:hover,
   margin: 0;
   padding: 0;
 }
-/* .social-link a:hover {
-  color: white;
-  background: var(--branding-color);
-} */
+.Recipe {
+  display: flex;
+  justify-content: center;
+}
+.underline {
+  border: 1px dashed #67d5d2;
+  width: 820px;
+  margin-top: 20px;
+}
+.under {
+  border: 1px dashed #67d5d2;
+  width: 400px;
+  /* margin-top: 10px; */
+}
+.step {
+  color: #f65282;
+}
+.step-text {
+  margin: 0;
+}
 .footer p {
   margin: 0;
 }
