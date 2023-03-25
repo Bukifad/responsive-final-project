@@ -11,6 +11,7 @@ h5,
 h6 {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  color: var(--secondary);
 }
 p {
   font-family: "Nunito", sans-serif;
@@ -54,13 +55,15 @@ a:hover,
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   text-align: center;
+}
 
+.text-block h1 {
   color: white;
 }
 .text-block p {
   font-size: 24px;
+  color: white;
 }
 
 .row h5 {
@@ -101,10 +104,12 @@ a:hover,
   color: #f65282;
 }
 .step-text {
-  margin: 0;
 }
 .footer p {
   margin: 0;
+}
+.contact {
+  color: var(--branding);
 }
 
 @media (max-width: 900px) {
@@ -124,7 +129,7 @@ a:hover,
     font-size: 14px;
   }
   .footer {
-    padding: 5px;
+    /* padding: 5px; */
   }
   .footer img {
     max-width: 60px;
@@ -147,4 +152,21 @@ a:hover,
     text-align: center;
     width: auto;
   }
+
+  .underline {
+    width: 390px;
+  }
+  .step {
+    margin-top: 20px;
+  }
+  .contact-info {
+    display: inline;
+    align-items: center;
+  }
+  .contact {
+    margin: 10px;
+  }
+  /* .under {
+    width: 200px;
+  } */
 }
