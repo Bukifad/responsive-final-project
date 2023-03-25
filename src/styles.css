@@ -15,8 +15,11 @@ h6 {
 p {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
+  /* line-height: 30px; */
 }
-
+body {
+  max-width: 100%;
+}
 nav {
   padding: 20px;
 }
@@ -32,7 +35,7 @@ nav li {
   margin-left: 15px;
 }
 nav li a {
-  font-size: 10px;
+  font-size: 14px;
   text-decoration: none;
   margin: 10px;
   color: var(--secondary);
@@ -71,19 +74,22 @@ a:hover,
 .social-link a {
   margin: 0 20px;
   color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
 }
-.social-link a:hover {
+
+.socials p {
+  margin: 0;
+  padding: 0;
+}
+/* .social-link a:hover {
   color: white;
   background: var(--branding-color);
-}
+} */
 .footer p {
   margin: 0;
 }
+
 @media (max-width: 900px) {
   .image {
     max-width: 60px;
@@ -95,6 +101,7 @@ a:hover,
   .row img {
     width: 100%;
     align-items: center;
+    display: inline;
   }
   .row h5 {
     font-size: 14px;
@@ -104,5 +111,23 @@ a:hover,
   }
   .footer img {
     max-width: 60px;
+  }
+  .about-container {
+    display: inline;
+    align-items: center;
+    /* text-align: center; */
+  }
+  .about-container img {
+    width: 350px;
+  }
+  .about-container h1 {
+    font-size: 40px;
+  }
+  .about-container p {
+    font-size: 18px;
+  }
+  .about-text {
+    text-align: center;
+    width: auto;
   }
 }
